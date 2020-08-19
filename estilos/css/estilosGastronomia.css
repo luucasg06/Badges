@@ -1,0 +1,158 @@
+/*Estilos propios*/
+
+body{
+    background-image: url("../Imagenes/Fondo.png");
+}
+
+.titulo-cartas{
+  font-style: italic;
+  font-family:bold;
+  font-size:40px;
+  text-shadow: gray 0px 1px, gray -2px 2px, gray -3px 3px, gray -4px 4px, gray -5px 5px;
+  font-weight: bold;
+  color: black;
+  letter-spacing: 1px;
+
+}
+
+.cerrar{
+  color:black;
+font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Fin Estilos propios*/
+
+/*Todos estos estilos son modificaciones a los estilos de materialize*/
+
+/*Aquí con el hover hago el efecto de seleccionar y le doy color*/
+.Opciones {
+font-style:Verdana;
+font-family:cursive;
+
+}
+
+.sidenav li > a:hover {
+  background:
+ #dee0e0;
+}
+
+.sidenav li.active {
+  background-color:#62c952;
+  }
+
+.waves-effect.waves-teal .waves-ripple {
+  background-color:#62c952;
+}
+
+.sidenav li > a {
+  color:black;
+  font-weight: bold;
+}
+
+.sidenav li > a > i.material-icons {
+  color:black;
+  font-weight: bold;
+}
+
+.card .card-image img {
+  height:540px;
+}
+
+.tabs .tab a {
+  color:black;
+  font-family:Verdana;
+  font-family:cursive;
+  font-weight: bold;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+  color:black;
+  }
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+background-color:#62c952;
+
+
+}
+.tabs.tabs-transparent .indicator {
+  background-color:gray;
+}
+
+    .tabs .indicator {
+
+      background-color: black;
+      font-weight: bold;
+      height: 4px;
+
+    }
+
+.tabs{
+      background-color:white;
+      border-radius:22px;
+
+}
+
+.card{
+ border-radius:22px;
+ border-style: outset;
+border-color: black;
+}
+
+.card-title .activator a{
+     border-radius:22px;
+}
+
+.btn, .btn-large, .btn-small {
+     border-radius:22px;
+     background-color:#62c952;
+
+}
+
+
+.card .card-image img {
+   border-radius:18px;
+}
+
+.slider .slides li img {
+border-style: outset;
+
+border-width: 7px;
+border-color: black;
+
+  }
+
+.btn:hover, .btn-large:hover, .btn-small:hover {
+    background-color:#1fad47;
+}
+.page-footer{
+  width:100%;
+  text-align:center;
+  background-color:#939090;
+}
+
+.modal-trigger{
+  color: black;
+font-weight: bold;
+
+
+}
+
+
+/*@media only screen and (min-width: 992px){
+  .sidenav sidenav-fixed
+  {
+    fixed:0;
+  }
+}*/

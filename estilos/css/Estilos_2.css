@@ -1,0 +1,85 @@
+/*Estilos propios*/
+
+body{
+    background-image: url("../Imagenes/Fondo.png");
+}
+
+
+
+
+
+
+/*Fin Estilos propios*/
+
+/*Todos estos estilos son modificaciones a los estilos de materialize*/
+
+/*Aquí con el hover hago el efecto de seleccionar y le doy color*/
+.Opciones {
+font-style:Verdana;
+font-family:cursive;
+
+}
+
+.sidenav li > a:hover {
+  background:
+ #dee0e0;
+}
+
+.sidenav li.active {
+  background-color:#62c952;
+  }
+
+
+
+.sidenav li > a {
+  color:black;
+  font-weight: bold;
+}
+
+.sidenav li > a > i.material-icons {
+  color:black;
+  font-weight: bold;
+}
+
+.page-footer{
+  width:100%;
+  text-align:center;
+  background-color:#3134e6;
+}
+
+.inc{
+  width:250px !important;
+  text-align:center;
+}
+
+.tc{
+  width:400px !important;
+  text-align:right;
+}
+
+.tc2{
+  width:1000px !important;
+  text-align:right;
+}
+
+.tc1{
+  width: 700px !important;
+  text-align:right;
+}
+ .boton{
+        font-size:10px;
+        font-weight:bold;
+        color:white;
+        background:#638cb5;
+        border:0px;
+        width:120px;
+        height:35px;
+       }
+
+
+/*@media only screen and (min-width: 992px){
+  .sidenav sidenav-fixed
+  {
+    fixed:0;
+  }
+}*/
